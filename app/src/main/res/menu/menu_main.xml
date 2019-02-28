@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="epi.gi4.tp2Amine.MainActivity">
+    <item
+        android:id="@+id/action_conv"
+        android:orderInCategory="100"
+        android:title="Conversions"
+        app:showAsAction="never" >
+        <menu tools:context="epi.gi4.tp2Amine.MainActivity">
+            <item
+                android:id="@+id/action_Monaie"
+                android:orderInCategory="100"
+                android:title="Monaie"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_Temperature"
+                android:orderInCategory="100"
+                android:title="Température"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_quitter"
+        android:orderInCategory="100"
+        android:title="Quitter"
+        app:showAsAction="never" />
+</menu>
